@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_pulsa"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fab_height"
+                android:scaleType="center"
+                android:src="@drawable/ic_smartphone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:text="@string/beli_pulsa"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_fab" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_chat"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fab_height"
+                android:scaleType="center"
+                android:src="@drawable/ic_placeholder_on_map_paper_in_perspective" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:text="@string/chat"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_fab" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
